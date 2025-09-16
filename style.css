@@ -290,10 +290,19 @@ nav a:hover{
 
 /* Footer */
 
+footer .social{
+    display: flex;
+}
+
 .footer .social a{
     margin: 0 10px;
     list-style-type: none;
     font-size: 30px;
+    transition: 0.3s;
+}
+
+.footer .social a:hover{
+    transform: translateY(-5px);
 }
 
 .footer .container nav ul li{
